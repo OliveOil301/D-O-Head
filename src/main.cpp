@@ -25,16 +25,13 @@ void setup()
 
 void loop()
 {
-  //Check the serial bus for new lines (commands)
-  //If there are some, go through each command and set the intermediate setpoint to the new value
-  //If there is a sound command, check if one is playing. if not, start the new sound
+  // Check the serial bus for new lines (commands)
+  // If there are some, go through each command and set the intermediate setpoint to the new value
+  // If there is a sound command, check if one is playing. if not, start the new sound
 
+  // go though all the setpoints. if the intermediate value is different than the previous one, make the previous one the intermediate one and set the servo(s) to it
 
-  //go though all the setpoints. if the intermediate value is different than the previous one, make the previous one the intermediate one and set the servo(s) to it
-  
-
-
-
+  // Adding a comment to check if this is working
 
   // put your main code here, to run repeatedly:
 }
